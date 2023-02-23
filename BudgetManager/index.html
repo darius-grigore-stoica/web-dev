@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id = "header">
+        <h3>Budget Manager</h3>
+        <article id = "description-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consequuntur quae animi velit similique, vero ratione modi esse nam ipsum voluptatum neque rem!</article>
+    </div>
+    <div id="calculator">
+        <form id = "budget-form">
+            <h4>Budget:</h4> <input type="number" id="budget-value" placeholder="Total budget.."><br>
+            <h4>Category:</h4> <input type="text" id = "category" placeholder="New category..">
+            <button id = "add-category" type = "button">+</button>
+            <br>
+            <output class = "input-output"></output>
+        </form>
+        <button type = "submit" id = "submit-btn">Submit</button>
+    </div>
+    <div id = "results"></div>
+</body>
+</html>
